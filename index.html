@@ -1,0 +1,390 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cáp Nguyễn Hiếu Nghĩa | IT</title>
+    <meta name="description"
+        content="Portfolio chính thức của Cáp Nguyễn Hiếu Nghĩa - Full-Stack Developer với hơn 2 năm kinh nghiệm phát triển web và ứng dụng hiện đại.">
+    <meta name="keywords"
+        content="Cáp Nguyễn Hiếu Nghĩa, Full-Stack Developer, Web Developer, React, Node.js, Portfolio cá nhân, Lập trình viên, Developer Việt Nam">
+    <meta name="author" content="Cáp Nguyễn Hiếu Nghĩa">
+    <meta property="og:title" content="Cáp Nguyễn Hiếu Nghĩa | Full-Stack Developer">
+    <meta property="og:description"
+        content="Khám phá portfolio cá nhân của Cáp Nguyễn Hiếu Nghĩa - Lập trình viên Full-Stack với kỹ năng hiện đại và các dự án thực tế.">
+    <meta property="og:image" content="https://yourdomain.com/img/avt.jpg">
+    <meta property="og:url" content="https://yourdomain.com/">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Cáp Nguyễn Hiếu Nghĩa | Full-Stack Developer">
+    <meta name="twitter:description"
+        content="Lập trình viên Full-Stack với đam mê sáng tạo và giải pháp công nghệ đột phá.">
+    <meta name="twitter:image" content="https://yourdomain.com/img/avt.jpg">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="loading-screen" id="loading">
+        <div class="loader"></div>
+    </div>
+
+    <div class="cursor-dot" id="cursorDot"></div>
+    <div class="cursor-outline" id="cursorOutline"></div>
+
+    <div class="scroll-progress" id="scrollProgress"></div>
+
+    <nav class="navbar" id="navbar">
+        <div class="nav-content">
+            <a href="#home" class="logo">CNHN</a>
+            <ul class="nav-links">
+                <li><a href="#home">Trang chủ</a></li>
+                <li><a href="#about">Về tôi</a></li>
+                <li><a href="#journey">Hành trình</a></li>
+                <li><a href="#values">Giá trị</a></li>
+                <li><a href="#skills">Kỹ năng</a></li>
+                <li><a href="#hobbies">Sở thích</a></li>
+                <li><a href="#portfolio">Dự án</a></li>
+                <li><a
+                        href="https://drive.google.com/drive/folders/1CPSC_rox7TBDQYKfP1PeWybTTv1amHaY?usp=sharing">Ảnh</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="particles" id="particles"></div>
+        <div class="hero-content">
+            <div class="profile-image">
+                <img src="./img/avt.jpg" alt="Profile">
+            </div>
+            <h1>Cáp Nguyễn Hiếu Nghĩa</h1>
+            <p class="subtitle typing-text" id="typingText">Full-Stack Developer</p>
+            <p class="description">Chào mừng đến với portfolio của tôi! Tôi là một developer đam mê công nghệ với hơn 2
+                năm kinh nghiệm trong việc tạo ra những sản phẩm web hiện đại và sáng tạo.</p>
+            <div class="cta-buttons">
+                <a href="#portfolio" class="btn btn-primary">
+                    <i class="fas fa-rocket"></i>
+                    Xem dự án
+                </a>
+                <a href="#contact" class="btn btn-secondary">
+                    <i class="fas fa-envelope"></i>
+                    Liên hệ
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <h2>Về tôi</h2>
+        <div class="about-container">
+            <div class="about-text fade-in">
+                <p class="intro-text">
+                    Tôi là một Full-Stack Developer với niềm đam mê tạo ra những trải nghiệm web độc đáo và hiệu quả.
+                    Với nền tảng vững chắc trong cả frontend và backend, tôi luôn tìm kiếm những giải pháp sáng tạo
+                    để giải quyết các thách thức phức tạp trong phát triển phần mềm.
+                </p>
+            </div>
+
+            <div class="stats-grid fade-in">
+                <div class="stat-card">
+                    <div class="stat-number" data-target="50">0</div>
+                    <div class="stat-label">Dự án hoàn thành</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" data-target="2">0</div>
+                    <div class="stat-label">Năm kinh nghiệm</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" data-target="30">0</div>
+                    <div class="stat-label">Khách hàng hài lòng</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" data-target="15">0</div>
+                    <div class="stat-label">Công nghệ thành thạo</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Timeline Section -->
+    <section id="journey" class="section">
+        <h2>Hành trình phát triển</h2>
+        <div class="timeline">
+            <div class="timeline-item fade-in">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <div class="timeline-year">2019</div>
+                    <h3>Bắt đầu hành trình</h3>
+                    <p>Khởi đầu với HTML, CSS và JavaScript cơ bản. Tạo ra những trang web đầu tiên và khám phá thế giới
+                        lập trình.</p>
+                </div>
+            </div>
+            <div class="timeline-item fade-in">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <div class="timeline-year">2020</div>
+                    <h3>Chuyên sâu Frontend</h3>
+                    <p>Học React.js và Vue.js, tham gia các dự án thực tế. Phát triển kỹ năng UI/UX design và responsive
+                        design.</p>
+                </div>
+            </div>
+            <div class="timeline-item fade-in">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <div class="timeline-year">2021</div>
+                    <h3>Mở rộng Backend</h3>
+                    <p>Nắm vững Node.js, Express, MongoDB. Xây dựng API RESTful và học cách tối ưu hóa database
+                        performance.</p>
+                </div>
+            </div>
+            <div class="timeline-item fade-in">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <div class="timeline-year">2022</div>
+                    <h3>Full-Stack Professional</h3>
+                    <p>Hoàn thành nhiều dự án lớn, làm việc với team quốc tế. Chuyên sâu về cloud deployment và DevOps.
+                    </p>
+                </div>
+            </div>
+            <div class="timeline-item fade-in">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <div class="timeline-year">2023-2025</div>
+                    <h3>Innovation & Leadership</h3>
+                    <p>Dẫn dắt team, nghiên cứu AI/ML integration, tạo ra các sản phẩm công nghệ tiên tiến và đào tạo
+                        developer mới.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Values Section -->
+    <section id="values" class="section">
+        <h2>Giá trị cốt lõi</h2>
+        <div class="values-grid">
+            <div class="value-card fade-in">
+                <div class="value-icon">
+                    <i class="fas fa-lightbulb"></i>
+                </div>
+                <h3>Sáng tạo</h3>
+                <p>Luôn tìm kiếm những giải pháp độc đáo và sáng tạo cho mỗi thử thách. Không ngừng học hỏi và thử
+                    nghiệm công nghệ mới.</p>
+            </div>
+            <div class="value-card fade-in">
+                <div class="value-icon">
+                    <i class="fas fa-heart"></i>
+                </div>
+                <h3>Đam mê</h3>
+                <p>Yêu thích việc biến ý tưởng thành hiện thực. Mỗi dòng code đều được viết với tình yêu và sự tận tâm
+                    cao nhất.</p>
+            </div>
+            <div class="value-card fade-in">
+                <div class="value-icon">
+                    <i class="fas fa-users"></i>
+                </div>
+                <h3>Hợp tác</h3>
+                <p>Tin vào sức mạnh của teamwork. Sẵn sàng chia sẻ kiến thức và học hỏi từ đồng nghiệp để cùng phát
+                    triển.</p>
+            </div>
+            <div class="value-card fade-in">
+                <div class="value-icon">
+                    <i class="fas fa-trophy"></i>
+                </div>
+                <h3>Chất lượng</h3>
+                <p>Cam kết mang lại sản phẩm chất lượng cao nhất. Chú trọng từng chi tiết nhỏ để tạo ra trải nghiệm
+                    người dùng tuyệt vời.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hobbies Section -->
+    <section id="hobbies" class="section">
+        <h2>Sở thích & Đam mê</h2>
+        <div class="hobbies-container">
+            <div class="hobby-card fade-in" data-hobby="coding">
+                <div class="hobby-front">
+                    <i class="fas fa-code"></i>
+                    <h3>Coding</h3>
+                </div>
+                <div class="hobby-back">
+                    <p>Thích thú với việc giải quyết các thuật toán phức tạp và tham gia coding challenges. Đóng góp cho
+                        open-source projects.</p>
+                </div>
+            </div>
+            <div class="hobby-card fade-in" data-hobby="music">
+                <div class="hobby-front">
+                    <i class="fas fa-music"></i>
+                    <h3>Âm nhạc</h3>
+                </div>
+                <div class="hobby-back">
+                    <p>Chơi guitar và piano trong thời gian rảnh. Âm nhạc giúp tôi thư giãn và tìm cảm hứng sáng tạo cho
+                        công việc.</p>
+                </div>
+            </div>
+            <div class="hobby-card fade-in" data-hobby="travel">
+                <div class="hobby-front">
+                    <i class="fas fa-plane"></i>
+                    <h3>Du lịch</h3>
+                </div>
+                <div class="hobby-back">
+                    <p>Khám phá những nền văn hóa mới, gặp gỡ người bản địa và học hỏi từ những trải nghiệm khác nhau
+                        trên thế giới.</p>
+                </div>
+            </div>
+            <div class="hobby-card fade-in" data-hobby="reading">
+                <div class="hobby-front">
+                    <i class="fas fa-book"></i>
+                    <h3>Đọc sách</h3>
+                </div>
+                <div class="hobby-back">
+                    <p>Đam mê sách về công nghệ, tâm lý học và phát triển bản thân. Thường xuyên cập nhật kiến thức mới
+                        từ các blog tech.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <h2>Kỹ năng</h2>
+        <div class="skills-grid">
+            <div class="skill-card fade-in">
+                <i class="fab fa-html5"></i>
+                <h3>Frontend Development</h3>
+                <p>HTML5, CSS3, JavaScript, React, Vue.js</p>
+                <div class="skill-progress">
+                    <div class="progress-bar">
+                        <div class="progress-fill" data-width="90"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-card fade-in">
+                <i class="fas fa-server"></i>
+                <h3>Backend Development</h3>
+                <p>Node.js, Python, PHP, MongoDB, MySQL</p>
+                <div class="skill-progress">
+                    <div class="progress-bar">
+                        <div class="progress-fill" data-width="85"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-card fade-in">
+                <i class="fas fa-mobile-alt"></i>
+                <h3>Mobile Development</h3>
+                <p>React Native, Flutter, iOS, Android</p>
+                <div class="skill-progress">
+                    <div class="progress-bar">
+                        <div class="progress-fill" data-width="75"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-card fade-in">
+                <i class="fas fa-palette"></i>
+                <h3>UI/UX Design</h3>
+                <p>Figma, Adobe XD, Photoshop, Illustrator</p>
+                <div class="skill-progress">
+                    <div class="progress-bar">
+                        <div class="progress-fill" data-width="80"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="section">
+        <h2>Dự án nổi bật</h2>
+        <div class="portfolio-grid">
+            <div class="portfolio-item fade-in" onclick="openModal('E-commerce Platform')">
+                <div class="portfolio-image">
+                    <i class="fas fa-shopping-cart"></i>
+                </div>
+                <div class="portfolio-content">
+                    <h3>E-commerce Platform</h3>
+                    <p>Nền tảng thương mại điện tử hoàn chỉnh với React và Node.js</p>
+                </div>
+            </div>
+            <div class="portfolio-item fade-in" onclick="openModal('Mobile Banking App')">
+                <div class="portfolio-image">
+                    <i class="fas fa-mobile-alt"></i>
+                </div>
+                <div class="portfolio-content">
+                    <h3>Mobile Banking App</h3>
+                    <p>Ứng dụng ngân hàng di động với React Native</p>
+                </div>
+            </div>
+            <div class="portfolio-item fade-in" onclick="openModal('AI Dashboard')">
+                <div class="portfolio-image">
+                    <i class="fas fa-chart-line"></i>
+                </div>
+                <div class="portfolio-content">
+                    <h3>AI Dashboard</h3>
+                    <p>Dashboard phân tích dữ liệu với Machine Learning</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Liên hệ</h2>
+        <form class="contact-form fade-in" onsubmit="handleSubmit(event)">
+            <div class="form-group">
+                <label for="name">Họ và tên</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Tin nhắn</label>
+                <textarea id="message" name="message" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">
+                <i class="fas fa-paper-plane"></i>
+                Gửi tin nhắn
+            </button>
+        </form>
+
+        <div class="social-links">
+            <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+        </div>
+    </section>
+    <div class="version-switch">
+        <button id="btnV1" class="active">V1</button>
+        <button id="btnV2">V2</button>
+    </div>
+    <button class="theme-toggle" onclick="toggleTheme()">
+        <i class="fas fa-sun" id="themeIcon"></i>
+    </button>
+
+    <div id="projectModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h2 id="modalTitle">Project Title</h2>
+            <p id="modalDescription">Project description goes here...</p>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+    <script>
+        const btnV1 = document.getElementById("btnV1");
+        const btnV2 = document.getElementById("btnV2");
+
+        btnV1.onclick = () => {
+            // Không làm gì cả vì đang ở V1
+        };
+
+        btnV2.onclick = () => {
+            window.location.href = "./v2.html"; // Chuyển sang phiên bản V2
+        };
+    </script>
+</body>
+
+</html>
